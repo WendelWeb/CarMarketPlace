@@ -1,0 +1,25 @@
+.header {
+  span {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 20px;
+    @media (max-width: 790px) {
+      font-size: 15px;
+    }
+  }
+
+  li {
+    font-weight: 500;
+  }
+}
+
+.logoSeparator {
+  height: 40px;
+  width: 1.5px;
+  background: gainsboro;
+  right: 0px;
+}
+
+
