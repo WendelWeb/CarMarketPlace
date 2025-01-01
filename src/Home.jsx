@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Categories from "./components/Categories";
 import MostSearchedCar from "./components/MostSearchedCar";
+import Footer from "./components/Footer";
 const Home = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Categories />
       <MostSearchedCar />
+      <Footer />
     </div>
   );
 };

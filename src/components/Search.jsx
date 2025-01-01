@@ -6,7 +6,7 @@ import {
   SelectValue,
 } from "./ui/select";
 import { Separator } from "./ui/separator";
-import { FcSearch } from "react-icons/fc";
+import { CiSearch } from "react-icons/ci";
 import styles from "./Search.module.scss";
 import { carBrands, pricingRange } from "../constants/data";
 export const formatNumberWithComma = (number) => {
@@ -76,7 +76,7 @@ const Search = () => {
       <div
         className={`${styles.searchDiv} w-full flex justify-center transition-all pointer py-2 rounded-sm`}
       >
-        <FcSearch className="text-3-xl" style={{ fontSize: "30px" }} />
+        <CiSearch className="text-[40px] bg-primary rounded-full p-1.5"/>
       </div>
     </div>
   );

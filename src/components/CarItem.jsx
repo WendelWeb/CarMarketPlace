@@ -9,8 +9,8 @@ import { IoMdOpen } from "react-icons/io";
 
 const CarItem = ({ data }) => {
   return (
-    <div className="rounded-xl bg-white hover:shodow-md cursor-pointer">
-      <h2>New</h2>
+    <div className="rounded-xl border bg-white hover:shadow-md cursor-pointer">
+      <h2 className="absolute m-2 bg-green-500 rounded-full px-2 font-bold  text-white">New</h2>
       <img
         src={data?.image}
         width={'100%'}
