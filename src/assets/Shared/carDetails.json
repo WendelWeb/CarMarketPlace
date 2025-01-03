@@ -163,6 +163,7 @@
       "label": "Cylinder",
       "name": "cylinder",
       "fieldType": "number",
+      "required": true,
       "column": 1,
       "icon": "FaCircle"
     },
@@ -194,7 +195,8 @@
       "label": "Offer Type",
       "name": "offerType",
       "fieldType": "dropdown",
-      "options": ["Buy", "Hot Offer", "Sell", "Urgent"],
+      "required": true,
+      "options": ["Sell", "Sell Urgent", "Rent", "Exchange"],
       "column": 2,
       "icon": "FaTags"
     },

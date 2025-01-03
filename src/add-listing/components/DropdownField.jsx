@@ -8,9 +8,9 @@ import {
 
 
 
-const DropdownField = ({item}) => {
+const DropdownField = ({item, handleInputChange}) => {
   return (
-    <Select>
+    <Select required={item.required} onValueChange={(value)=> handleInputChange(item.name, value)}>
       <SelectTrigger className="w-full">
         <SelectValue placeholder={`${item?.label}`} />
       </SelectTrigger>

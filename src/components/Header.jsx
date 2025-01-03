@@ -6,7 +6,6 @@ const Header = () => {
   const { isSignedIn } = useUser();
   const liClasses =
     "font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary";
-  console.log(isSignedIn);
 
   return (
     <div

@@ -10,7 +10,6 @@ const Hero = () => {
         <Search />
         <img src="/tesla.png" alt="tesla-hero-background-image" />
       </div>
-      
     </div>
   );
 };
